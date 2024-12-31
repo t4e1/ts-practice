@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",    // ts로 작성한 코드를 js로 변환할 때 변환된 파일이 저장되는 위치
+        "sourceMap": true,       // 소스 맵 생성
+        "noImplicitAny": true,   // any 타입 사용 금지 (타입 지정 필수)
+        "module": "ES6",         // 모듈 시스템 사용
+        "target": "ES5",         // 변환할 대상 자바스크립트 버전
+        "allowJs": true
+    }
+}
