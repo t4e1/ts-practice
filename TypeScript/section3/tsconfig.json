@@ -1,0 +1,11 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "target": "ESNext",  // 변환되는 자바스크립트가 사용될 버전
+        "module": "ESNext",
+        "outDir": "dist",
+        "strict": true,
+        // "strictNullChecks": false,  // null 타입이 아닌 변수에 null 값을 허용하게 해줌, strict 옵션의 하위옵션
+        "moduleDetection": "force"
+    }
+}
